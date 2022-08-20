@@ -44,19 +44,19 @@ handler.all = async function (m) {
                     showAdAttribution: true,
 					title: global.ucapan,
 					body: wm,
-					mediaUrl: sgc,
+					mediaUrl: "https://chat.whatsapp.com/FvDujLzzrQsGaJaRLVZ0Fg",
 					description: 'simple bot esm',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
-					sourceUrl: "https://github.com/FahriAdison",					
+					sourceUrl: "https://chat.whatsapp.com/FvDujLzzrQsGaJaRLVZ0Fg",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/bot_whangsaf",
+            mediaUrl: "https://chat.whatsapp.com/FvDujLzzrQsGaJaRLVZ0Fg",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/bot_whangsaf", 
+            description: "https://chat.whatsapp.com/FvDujLzzrQsGaJaRLVZ0Fg", 
             title: 'Simple Bot Esm',
             body: wm,
             thumbnailUrl: pp,
